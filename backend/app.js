@@ -17,6 +17,8 @@ var schedule = require('./routes/schedule');
 var lab = require('./routes/lab');
 var admin = require('./routes/admin');
 var visit = require('./routes/visit');
+var service = require('./routes/service');
+
 
 
 
@@ -51,6 +53,8 @@ app.use("/api/schedule", schedule);
 app.use("/api/lab", lab);
 app.use("/api/admin", admin);
 app.use("/api/visit", visit);
+app.use("/api/service", service);
+
 
 
 
